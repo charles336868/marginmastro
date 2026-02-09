@@ -1,6 +1,8 @@
 
 # Margin Maestro Pro
 
+![Build Status](https://github.com/ygseven20/marginmastro/actions/workflows/deploy.yml/badge.svg)
+
 An industrial-styled gross margin calculation tool for streetwear brands and retailers.
 
 ## Features
@@ -12,7 +14,7 @@ An industrial-styled gross margin calculation tool for streetwear brands and ret
 ## Tech Stack
 - React 18+ (Vite)
 - TypeScript
-- Tailwind CSS (via CDN for hybrid portability)
+- Tailwind CSS (Local Installation)
 
 ## How to Run (Local Development)
 
@@ -25,6 +27,12 @@ An industrial-styled gross margin calculation tool for streetwear brands and ret
    ```bash
    npm run dev
    ```
+
+## Deployment
+This project is configured to deploy automatically to GitHub Pages via GitHub Actions.
+1. Push to `main` branch.
+2. Go to repository Settings > Pages.
+3. Select "GitHub Actions" as the source.
 
 ## License
 MIT
